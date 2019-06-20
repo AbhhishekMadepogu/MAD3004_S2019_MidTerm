@@ -16,4 +16,9 @@ class Bill{
     var billTotal{
     
     }
+    init(billId:Int,billType:String,billDate:Date) {
+        self.billId=billId
+        self.billType=billType
+        self.billDate=billDate
+    }
 }
