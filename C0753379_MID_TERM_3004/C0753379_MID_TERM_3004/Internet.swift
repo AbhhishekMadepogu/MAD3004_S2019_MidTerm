@@ -9,8 +9,8 @@
 import Foundation
 class Internet:Bill{
     var providerName:String?
-    var InternetGbUsed:String?
-    init(providerName:String,InternetGbUsed:String,billId:Int,billType:String,billDate:Date){
+    var InternetGbUsed:Int?
+    init(providerName:String,InternetGbUsed:Int,billId:Int,billType:String,billDate:Date){
         self.providerName=providerName
         self.InternetGbUsed=InternetGbUsed
         super.init(billId: billId, billType: billType, billDate: billDate)

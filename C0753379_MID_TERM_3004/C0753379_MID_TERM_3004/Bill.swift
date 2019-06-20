@@ -21,4 +21,5 @@ class Bill:IDisplay{
         self.billType=billType
         self.billDate=billDate
     }
+    var billsArray=[Bill]()
 }

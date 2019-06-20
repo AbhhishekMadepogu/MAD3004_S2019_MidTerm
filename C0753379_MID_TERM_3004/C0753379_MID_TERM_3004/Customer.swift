@@ -13,7 +13,15 @@ class Customer:IDisplay{
     var customerId:Int?
     var firstName:String?
     var lastName:String?
+    var fullName:String=GetFullName(firstname,lastname)
     var emailAddress:String?
-    
-    
+    lazy var billsArray:[Bill]=[Bill]()
+    private static var  billsDict=[Int:Bill]()
+    init(customerId:Int,firstName:String,lastName:String,emailAddress:String,billsArray:[Bill]) {
+        self.customerId=customerId
+        self.firstName=firstName
+        self.lastName=lastName
+        self.emailAddress=emailAddress
+        self.billsArray=billsArray
+    }
 }

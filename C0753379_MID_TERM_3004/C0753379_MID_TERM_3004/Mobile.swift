@@ -10,9 +10,9 @@ import Foundation
 class Mobile:Bill{
     var mobileModelName:String?
     var mobileNumber:String?
-    var internetGbUsed:String?
-    var minuteUsed:String?
-    init(mobileModelName:String,mobileNummber:String,internetGbUsed:String,minutesUsed:String,billId:Int,billType:String,billDate:Date) {
+    var internetGbUsed:Int?
+    var minuteUsed:Int?
+    init(mobileModelName:String,mobileNummber:String,internetGbUsed:Int,minutesUsed:Int,billId:Int,billType:String,billDate:Date) {
         self.mobileModelName=mobileModelName
         self.mobileNumber=mobileNummber
         self.internetGbUsed=internetGbUsed
