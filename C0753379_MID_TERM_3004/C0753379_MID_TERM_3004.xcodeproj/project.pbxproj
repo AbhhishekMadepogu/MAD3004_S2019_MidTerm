@@ -14,7 +14,7 @@
 		89C1EF3F22BC425D008B4348 /* Hydro.swift in Sources */ = {isa = PBXBuildFile; fileRef = 89C1EF3E22BC425D008B4348 /* Hydro.swift */; };
 		89C1EF4122BC427F008B4348 /* Customer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 89C1EF4022BC427F008B4348 /* Customer.swift */; };
 		89C1EF4422BC4928008B4348 /* IDisplay.swift in Sources */ = {isa = PBXBuildFile; fileRef = 89C1EF4322BC4928008B4348 /* IDisplay.swift */; };
-		89C1EF4722BC4ED3008B4348 /* FullNameExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 89C1EF4622BC4ED3008B4348 /* FullNameExtension.swift */; };
+		89C1EF4922BC51F2008B4348 /* EmailvalidationExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 89C1EF4822BC51F2008B4348 /* EmailvalidationExtension.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -38,7 +38,7 @@
 		89C1EF3E22BC425D008B4348 /* Hydro.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Hydro.swift; sourceTree = "<group>"; };
 		89C1EF4022BC427F008B4348 /* Customer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Customer.swift; sourceTree = "<group>"; };
 		89C1EF4322BC4928008B4348 /* IDisplay.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IDisplay.swift; sourceTree = "<group>"; };
-		89C1EF4622BC4ED3008B4348 /* FullNameExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FullNameExtension.swift; sourceTree = "<group>"; };
+		89C1EF4822BC51F2008B4348 /* EmailvalidationExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EmailvalidationExtension.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -86,7 +86,7 @@
 		89C1EF4522BC4EA9008B4348 /* Extensions */ = {
 			isa = PBXGroup;
 			children = (
-				89C1EF4622BC4ED3008B4348 /* FullNameExtension.swift */,
+				89C1EF4822BC51F2008B4348 /* EmailvalidationExtension.swift */,
 			);
 			path = Extensions;
 			sourceTree = "<group>";
@@ -149,9 +149,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				89C1EF3F22BC425D008B4348 /* Hydro.swift in Sources */,
+				89C1EF4922BC51F2008B4348 /* EmailvalidationExtension.swift in Sources */,
 				89C1EF3B22BC4238008B4348 /* Mobile.swift in Sources */,
 				89C1EF3922BC421B008B4348 /* Bill.swift in Sources */,
-				89C1EF4722BC4ED3008B4348 /* FullNameExtension.swift in Sources */,
 				89C1EF4422BC4928008B4348 /* IDisplay.swift in Sources */,
 				89C1EF4122BC427F008B4348 /* Customer.swift in Sources */,
 				89C1EF3D22BC424B008B4348 /* Internet.swift in Sources */,

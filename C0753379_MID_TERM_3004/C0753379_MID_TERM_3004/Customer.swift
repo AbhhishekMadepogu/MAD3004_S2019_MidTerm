@@ -13,7 +13,10 @@ class Customer:IDisplay{
     var customerId:Int?
     var firstName:String?
     var lastName:String?
-    //var fullName:String=GetFullName(firstname,lastname)
+    var fullName: String
+    {
+        return "\(firstName!) \(lastName!)"
+    }
     var emailAddress:String?
     lazy var billsArray:[Bill]=[Bill]()
     private static var  customersDict=[Int:Customer]()
