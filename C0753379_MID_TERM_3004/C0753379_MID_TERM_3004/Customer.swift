@@ -7,7 +7,9 @@
 //
 
 import Foundation
-class Customer{
+class Customer:IDisplay{
+ 
+    
     var customerId:Int?
     var firstName:String?
     var lastName:String?
