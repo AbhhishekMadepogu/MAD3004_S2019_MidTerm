@@ -10,6 +10,12 @@ import Foundation
 
 
 class Bill:IDisplay{
+    func display() {
+        var a:String
+    }
+    
+    
+    
     var billId:Int?
     var billType:String?
     var billDate:String?

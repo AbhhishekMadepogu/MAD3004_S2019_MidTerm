@@ -8,6 +8,23 @@
 
 import Foundation
 class Customer:IDisplay{
+    func display() {
+        print("customerid:  \(self.customerId!)")
+        print("customername:  \(self.fullName)")
+        if((emailAddress?.isValidEmail())!){
+            print("customer emailid:\(self.emailAddress)")}
+        else{
+            print("customer entered wrong email")
+        }
+        print("______________BILLS__________________________")
+        for bills in billsArray{
+            bills.display()
+            print("++++++++++++++++++++")
+            
+        }
+        print("#######################################")
+    }
+    
  
     
     var customerId:Int?
@@ -22,7 +39,7 @@ class Customer:IDisplay{
     var billTotal:Float{
         var finalBillTotal:Float = 0.0
         for i in billsArray {
-            //finalBillTotal = finalBillTotal + billsArray[i].billTotal;
+            //finalBillTotal = finalBillTotal + billsArray[Bill].billTotal;
         }
         return finalBillTotal
     }
@@ -37,7 +54,7 @@ class Customer:IDisplay{
     }
     static func addCUSTOMER(customer:Customer)
     {
-        dict.updateValue(order, forKey: order.orderId!)
+        customersDict.updateValue(customer, forKey: customer.customerId!)
     }
 
 }

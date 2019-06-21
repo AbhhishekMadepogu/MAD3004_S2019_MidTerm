@@ -15,4 +15,13 @@ class Internet:Bill{
         self.InternetGbUsed=InternetGbUsed
         super.init(billId: billId, billType: billType, billDate: billDate,billTotal:billTotal)
     }
+    override func display() {
+        print("billid is:\(self.billId!)")
+        print("bill total is \(self.billTotal!)")
+        print("billtype\(self.billType!)")
+        print("bill date :\(self.billDate!)")
+        print("provider name:\(self.providerName!)")
+        print("Internet Gb used:\(self.InternetGbUsed!)")
+        
+    }
 }

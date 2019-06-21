@@ -26,5 +26,8 @@ var ib2:Internet=Internet.init(providerName: "Rogers", InternetGbUsed: 90, billI
 
 
 var c1:Customer=Customer.init(customerId: 01, firstName: "Abhishek", lastName: "Madepogu", emailAddress: "abhishek.madepogu@gmail.com", billsArray: [mb1,hb1,ib1])
-
+Customer.addCUSTOMER(customer: c1)
+c1.display()
 var c2:Customer=Customer.init(customerId: 02, firstName: "Ashish", lastName: "Madepogu", emailAddress: "ashish.madepogu@gmail.com", billsArray: [mb2,hb2,ib2])
+Customer.addCUSTOMER(customer: c2)
+c2.display()
