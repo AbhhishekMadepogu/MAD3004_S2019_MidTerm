@@ -35,4 +35,11 @@ class Customer:IDisplay{
         self.emailAddress=emailAddress
         self.billsArray=billsArray
     }
+    static func addCUSTOMER(customer:Customer)
+    {
+        dict.updateValue(order, forKey: order.orderId!)
+    }
+
 }
+
+
